@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f4ea90;
+}
+
+form {
+  background: rgb(247, 161, 118);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.pergunta {
+  margin-bottom: 20px;
+}
+
+.feedback {
+  color: red;
+  font-size: 0.9em;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}

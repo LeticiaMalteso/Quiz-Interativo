@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Quiz Interativo</title>
+</head>
+<body>
+<form id="quizForm">
+    <h2>Quiz Rápido</h2>
+
+    <!-- Pergunta 1 -->
+    <div class="pergunta">
+      <label>1.Qual a capital mais populosas do brasil?
+    <br>
+    <br>
+      <input type="text" name="capital" />
+      <div class="feedback" id="feedbackCapital"></div>
+    </div>
+    <p>
+
+    <!-- Pergunta 2 -->
+    <div class="pergunta">
+      <label>2. Qual dessas é uma linguagem de programação?</label><br>
+      <input type="radio" name="linguagem" value="HTML" /> HTML<br>
+      <input type="radio" name="linguagem" value="Python" /> Python<br>
+      <input type="radio" name="linguagem" value="CSS" /> CSS<br>
+      <div class="feedback" id="feedbackLinguagem"></div>
+    </div>
+
+    <!-- Pergunta 3 corrigida -->
+    <div class="pergunta">
+      <label>3. Qual atributo HTML define um link de navegação?</label><br>
+      <input type="radio" name="atributo" value="href" /> href<br>
+      <input type="radio" name="atributo" value="src" /> src<br>
+      <input type="radio" name="atributo" value="action" /> action<br>
+      <div class="feedback" id="feedbackAtributo"></div>
+    </div>
+
+    <!-- Pergunta 4 -->
+    <div class="pergunta">
+      <label>4. Quais desses são navegadores web?</label><br>
+      <input type="checkbox" name="navegadores" value="Chrome" /> Chrome<br>
+      <input type="checkbox" name="navegadores" value="Photoshop" /> Photoshop<br>
+      <input type="checkbox" name="navegadores" value="Firefox" /> Firefox<br>
+      <div class="feedback" id="feedbackNavegadores"></div>
+    </div>
+
+    <button type="submit">Enviar</button>
+    <div id="resultado"></div>
+  </form>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
